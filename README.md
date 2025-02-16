@@ -18,15 +18,14 @@ pip install requests beautifulsoup4
 ## Usage
 1. Clone this repository:
    ```sh
-   git clone https://github.com/your-username/web-scraper.git
+   git clone https://github.com/your-username/web_scrapper.git
    cd web-scraper
    ```
-2. Open `web_scraper.py` and update the `url` variable with the target website.
-3. Run the script:
+2. Run the script:
    ```sh
-   python web_scraper.py
+   python main.py
    ```
-4. Extracted titles will be saved in `output.txt`.
+3. Extracted titles will be saved in `output.txt`.
 
 ## Troubleshooting
 - If no articles are found, inspect the HTML structure by checking the printed output and modify the `parse_html` function accordingly.
